@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+/*-----------------------------------------------------------
+star_rating
+/************************************************************
+Some quotation from the wordpress.
+************************************************************/
+------------------------------------------------------------ */
+
+@font-face {
+font-family:"dashicons";
+src:url("../fonts/dashicons.eot");
+}
+
+@font-face {
+font-family:"dashicons";
+src:url(data:application/x-font-woff;charset=utf-8;base64,/* !! Large amount of data removed, see wp-includes/css/dashicons.css for complete data !! */) format("woff"),
+url("../fonts/dashicons.ttf") format("truetype"),
+url("../fonts/dashicons.svg#dashicons") format("svg");
+font-weight:normal;
+font-style:normal;
+}
+
+.star-rating-review-meta .star-rating {
+float:right;
+}
+
+.star-rating .star-full:before {
+content:"\f155";
+}
+
+.star-rating .star-half:before {
+content:"\f459";
+}
+
+.star-rating .star-empty:before {
+content:"\f154";
+}
+
+.srrwtx-rating-synthesis .star-rating .star {
+width:26px;
+height:25px;
+line-height:1;
+color:#a80000;
+font-family:dashicons;
+font-size:25px;
+font-style:normal;
+font-weight:400;
+text-align:center;
+text-decoration:inherit;
+display:inline-block;
+vertical-align:top;
+}
+
+.star-rating-review-meta .star-rating .star {
+width:20px;
+height:20px;
+line-height:1;
+color:#a80000;
+font-family:dashicons;
+font-size:20px;
+font-style:normal;
+font-weight:400;
+text-align:center;
+text-decoration:inherit;
+display:inline-block;
+vertical-align:top;
+}
+
+/*-----------------------------------------------------------
+rating_review
+------------------------------------------------------------ */
+
+.srrwtx-body {
+width:100%;
+margin:50px 0;
+float:left;
+}
+
+.srrwtx-body li.comment {
+width:100%;
+margin:20px 0;
+float:left;
+}
+
+p.no-review {
+width:100%;
+margin:30px 0;
+text-align:center;
+font-weight:bold;
+font-size:20px;
+float:left;
+}
+
+#srrwtx-rating-form-h2 {
+width:100%;
+padding:5px 0;
+margin-bottom:30px;
+border-bottom:2px solid #e8e8e8;
+font-weight:bold;
+float:left;
+}
+
+.comment-form-star-input input {
+display:none;
+}
+
+.comment-form-star-input label {
+margin-right:2px;
+padding:2px 6px;
+background:#fff;
+border:1px solid #ffd2d2;
+color:#a80000;
+float:left;
+cursor:pointer;
+border-radius:50px;
+-moz-border-radius:50px;
+-webkit-border-radius:50px;
+}
+
+.comment-form-star-input label:hover {
+background:#ffeeee;
+border:1px solid #efa8a8;
+color:#cb3131;
+}
+
+.comment-form-star-input input:checked+label {
+background:#ffeeee;
+border:1px solid #efa8a8;
+color:#cb3131;
+}
+
+.srrwtx-rating-form .comment-form-star {
+width:100%;
+margin-bottom:15px;
+float:left;
+}
+
+.srrwtx-rating-form p.comment-form-star-label {
+width:30%;
+padding:10px 5px;
+background:#fff;
+font-weight:bold;
+color:#999999;
+float:left;
+box-sizing:border-box;
+}
+
+.srrwtx-rating-form p.comment-form-star-input {
+width:62%;
+margin-left:4%;
+padding:10px 0;
+float:left;
+}
+
+.screen-reader-text {
+display:none;
+}
+
+#srrwtx-rating-h2 {
+width:100%;
+padding:5px 0;
+margin-bottom:30px;
+border-bottom:2px solid #e8e8e8;
+font-weight:bold;
+float:left;
+}
+
+.srrwtx-rating-synthesis {
+width:100%;
+margin-bottom:30px;
+float:left;
+}
+
+.srrwtx-rating-synthesis p {
+font-size:17px;
+float:right;
+}
+
+.srrwtx-rating-synthesis .star-rating {
+float:right;
+}
+
+#srrwtx-rating-h2 {
+padding-top:4px;
+font-weight:bold;
+float:left;
+}
+
+.srrwtx-rating-list .star-rating-review-meta {
+width:100%;
+margin-top:5px;
+float:left;
+}
+
+.srrwtx-rating-list .star-rating-review-content {
+width:100%;
+margin:10px 0;
+float:left;
+}
+
+.srrwtx-rating-list .star-rating-review-content p {
+width:92%;
+margin:0 auto;
+padding:20px;
+background:#fff;
+box-sizing:border-box;
+}
+
+.srrwtx-rating-list .star-rating-review-metadata time {
+float:right;
+}
+
+/*-----------------------------------------------------------
+Default_theme
+------------------------------------------------------------ */
+
+#respond p.logged-in-as,
+#respond p.comment-notes {
+margin-bottom:30px;
+}
+
+#respond p.comment-form-author,
+#respond p.comment-form-email,
+#respond p.comment-form-url,
+#respond p.comment-form-comment {
+width:100%;
+margin-bottom:15px;
+float:left;
+}
+
+#respond p.comment-form-author label,
+#respond p.comment-form-email label,
+#respond p.comment-form-url label,
+#respond p.comment-form-comment label {
+width:30%;
+padding:10px 5px;
+background:#fff;
+font-weight:bold;
+float:left;
+box-sizing:border-box;
+}
+
+#respond p.comment-form-author input,
+#respond p.comment-form-email input,
+#respond p.comment-form-url input,
+#respond p.comment-form-comment textarea {
+width:58%;
+margin-left:4%;
+padding:10px 2%;
+float:left;
+}
+
+/*-----------------------------------------------------------
+comment
+------------------------------------------------------------ */
+
+#srrwtx-comment-h2 {
+width:100%;
+font-size:15px;
+font-weight:bold;
+float:left;
+}
+
+.srrwtx-comment-list li {
+width:100%;
+margin:5px 0 25px;
+float:left;
+}
+
+.srrwtx-comment-list p {
+width:92%;
+margin:0 auto;
+padding:5px 1%;
+background:#f3f3f3;
+}
+
+.srrwtx-comment-list .reply {
+margin-top:10px;
+}
+
+.commentmetadata {
+margin:5px 0 10px;
+}
+
+.comment-body img {
+margin-top:20px;
+}
+
+p.form-allowed-tags {
+width:100%;
+margin:10px 0;
+float:left;
+}
+
+.comment-awaiting-moderation {
+font-weight:bold;
+}
+
+p.form-submit {
+width:96%;
+height:30px;
+margin:0 auto 30px;
+text-align:right;
+}
+
+p.form-submit input  {
+width:40%;
+padding:6px 10%;
+background:#ababab;
+border-style:none;
+cursor:pointer;
+outline:none;
+}
+
+p.form-submit input:hover {
+background:#979797;
+}
+
+/*-----------------------------------------------------------
+navigation
+------------------------------------------------------------ */
+
+.rc-navigation {
+width:100%;
+margin:10px 0;
+float:left;
+}
+
+.rc-navigation .rc-left {
+width:50%;
+text-align:left;
+float:left;
+}
+
+.rc-navigation .rc-right {
+width:50%;
+text-align:right;
+float:right;
+}

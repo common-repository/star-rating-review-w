@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Star Rating Review\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: TEMPLX <web@templx.com>\n"
+"Language-Team: TEMPLX <web@templx.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: japanese\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: __\n"
+"X-Poedit-SearchPath-1: _e\n"
+"X-Poedit-SearchPath-2: _n\n"
+
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">様より:</span>"
+
+msgid "No rating"
+msgstr "評価なし"
+
+msgid "No reviews"
+msgstr "レビューなし"
+
+msgid "Reviews"
+msgstr "件のレビュー"
+
+msgid "Leave a review"
+msgstr "レビューを書く"
+
+msgid "Total Review"
+msgstr "総合評価"
+
+msgid "Comments"
+msgstr "件のコメント"
+
+msgid "E-MAIL will not be published."
+msgstr "メールアドレスは公開されません。"
+
+msgid "Indicates a required field."
+msgstr "は必須項目です。"
+
+msgid "Name(Nickname)"
+msgstr "お名前(ニックネーム)"
+
+msgid "E-MAIL"
+msgstr "メールアドレス"
+
+msgid "Rating"
+msgstr "評価"
+
+msgid "Please send if there is no problem."
+msgstr "問題がなければ送信してください。"
+
+msgid "Send Review"
+msgstr "レビューを送信"
+
+msgid "You must be logged in to post a review."
+msgstr "レビューを投稿するにはログインしてください。"
+
+msgid "Old Reviews"
+msgstr "古いレビュー"
+
+msgid "New Review"
+msgstr "新しいレビュー"
+
+msgid "Old Comments"
+msgstr "古いコメント"
+
+msgid "New Comments"
+msgstr "新しいコメント"
+
+msgid "There are no customer reviews yet."
+msgstr "レビューはありません。"
+
+msgid "Your review is awaiting moderation."
+msgstr "あなたのレビューは承認待ちです。"
